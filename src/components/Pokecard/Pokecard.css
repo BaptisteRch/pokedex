@@ -1,0 +1,178 @@
+.pokecard:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 30%;
+    height: 30%;
+    background: radial-gradient(
+        rgba(255, 255, 255, 0.3) 2px,
+        #000 2px,
+        transparent 0
+    );
+    background-size: 14px 14px;
+}
+
+.pokecard:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 30%;
+    height: 105%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.11);
+    mask: url("pokeball-transparent.svg");
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    -webkit-mask: url("pokeball-transparent.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+}
+
+/* style pokemon type */
+
+.types .bug {
+    background: #8cb230;
+}
+
+.types .dark {
+    background: #58575f;
+}
+
+.types .dragon {
+    background: #0f6ac0;
+}
+
+.types .electric {
+    background: #eed535;
+}
+
+.types .fairy {
+    background: #ed6ec7;
+}
+
+.types .fighting {
+    background: #d04164;
+}
+
+.types .fire {
+    background: #fd7d24;
+}
+
+.types .flying {
+    background: #748fc9;
+}
+
+.types .ghost {
+    background: #556aae;
+}
+
+.types .grass {
+    background: #62b957;
+}
+
+.types .ground {
+    background: #dd7748;
+}
+
+.types .ice {
+    background: #61cec0;
+}
+
+.types .normal {
+    background: #9da0aa;
+}
+
+.types .poison {
+    background: #a552cc;
+}
+
+.types .psychic {
+    background: #ea5d60;
+}
+
+.types .rock {
+    background: #baab82;
+}
+
+.types .steel {
+    background: #417d9a;
+}
+
+.types .water {
+    background: #4a90da;
+}
+
+/* style pokemon background-color */
+.bug {
+    background-color: #8bd674;
+}
+
+.dark {
+    background-color: #75747e;
+}
+
+.dragon {
+    background-color: #1582e7;
+}
+
+.electric {
+    background-color: #f2cb55;
+}
+
+.fairy {
+    background-color: #e98acc;
+}
+
+.fighting {
+    background-color: #eb4971;
+}
+
+.fire {
+    background-color: #ff9448;
+}
+
+.flying {
+    background-color: #829edb;
+}
+
+.ghost {
+    background-color: #6882d4;
+}
+
+.grass {
+    background-color: #8bbe8a;
+}
+
+.ground {
+    background-color: #f78551;
+}
+
+.ice {
+    background-color: #6bddce;
+}
+
+.normal {
+    background-color: #c5c9d6;
+}
+
+.poison {
+    background-color: #bd5fe9;
+}
+
+.psychic {
+    background-color: #ff787a;
+}
+
+.rock {
+    background-color: #d5c895;
+}
+
+.steel {
+    background-color: #4d92b4;
+}
+
+.water {
+    background-color: #58abf6;
+}
